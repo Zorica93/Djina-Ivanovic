@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("Images/381835-PBRERE-523.jpg");
+	background-size: contain;
+	margin: 0px;
+    padding: 0px;
+}
+#header{
+    overflow: hidden;
+	width: 930px;
+	padding:15px;
+	
+}
+#h1{
+	float: left;
+	clear: both;
+	margin-top: 65px;
+}
+
+
+#logo{
+	float: left;
+	margin-left: 350px;
+}
+
+
+#social{
+	color:#FFFFFF;
+	float:right; 
+	padding: 6px 10px 0px ;
+	font-size: 20px;
+	margine: 5px;
+	
+}
+#social a:link, a:visited{
+	color: #DCB14F;
+	text-decoration: none;
+}
+#social a:hover {
+	color: #F960DC;
+	text-decoration: none;
+}
+
+#social a:active{
+	 color: #DCB14F; 
+}
+
+#wrapper{
+	background: #FFF;
+	margin: 20px auto;
+	width: 960px;
+	padding:15px;	
+}
+#nav{
+	height: 40px;
+	background: #EDE1B4;
+	margin: 0 0 10px 0;
+
+}
+
+#nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+
+}
+
+#nav ul li {
+	display: inline-block;
+	position: relative;
+}
+#nav ul li a{
+	padding: 10px 8px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	transition: 1s all ease
+}
+
+#nav ul li a:link, a:visited {
+	color: #DCB14F;
+	text-decoration: none;
+	
+	
+}
+
+#nav ul li a:hover {
+	color: #F960DC;
+	text-decoration: none;
+}
+
+#nav ul li a:active{
+	 color: #DCB14F; 
+}
+
+#nav ul li ul {
+	background: rgba(237,225,180,0.82);
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+	width: 200px;
+}
+
+#nav ul li ul li{
+	display: block;
+	overflow: hidden;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+#main{
+    float: left;
+    margin: 0 0 0px 0;
+    text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	
+}
+#box .block{
+    width: 315px;
+	float: left;
+    margin: 5px 5px 3px 0;
+    text-align: justify;
+	color:  #DCB14F;
+	font-weight: 700;
+}
+#box .block .h3{
+	width: 960;
+}
+#box .block2{
+	width: 960px;
+	float: left;
+	margin: 5px 5px 3px 0;
+	text-align: justify;
+	color: #DCB14F;
+	font-weight: 700;
+
+}
+
+
+#termin{
+	text-align: center;
+	background: #EDE1B4;
+	margin: 10px 0 10px 0;
+	clear: both;
+	padding: 5px;
+	color: #DCB14F;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#footer{	
+	clear: both;
+	color: #DCB14F;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px;
+}
+
+#footer p{
+    margin: 0px;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	padding: 3px;
+}
+
+tr, th, td {
+	border: #DCB14F thin solid;
+	padding: 20px;
+}
+
+
+table{
+	margin: 15px;
+	border-collapse: collapse;	
+}
+
+td{
+width: 150px;
+text-align: right;
+}
+
+
+#kon tr .k,  th .k, td .k{
+	text-align: right;
+    padding: 2px;
+    background-color:#EDE1B4;
+}
+
+#licni {
+	float: left;
+	display: inline-block;
+	margin-right: 4px; 
+}
+
+#loz{
+	float: left;
+	display: inline-block;
+}
+
+#comm{
+	clear: both;
+}
+
+#name, #pass {
+	width: 200px;
+	padding: 5px;
+	
+}
+
+textarea {
+	width: 406px;
+	padding: 10px;
+}
+
+
